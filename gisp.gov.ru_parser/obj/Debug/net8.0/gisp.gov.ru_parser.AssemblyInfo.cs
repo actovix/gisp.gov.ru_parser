@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("gisp.gov.ru_parser")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1f7d04da889db5f61f631ca9d2610f060aeed1c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93fd661ced11faab4133b26778e299295243a118")]
 [assembly: System.Reflection.AssemblyProductAttribute("gisp.gov.ru_parser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("gisp.gov.ru_parser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
