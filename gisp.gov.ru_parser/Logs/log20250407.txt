@@ -1,0 +1,119 @@
+2025-04-07 23:16:12.539 +04:00 [INF] Now listening on: http://0.0.0.0:5069
+2025-04-07 23:16:12.637 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-07 23:16:12.639 +04:00 [INF] Hosting environment: Development
+2025-04-07 23:16:12.640 +04:00 [INF] Content root path: C:\Users\matthew\source\repos\gisp.gov.ru_parser\gisp.gov.ru_parser
+2025-04-07 23:16:41.568 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/swagger/index.html - null null
+2025-04-07 23:16:41.920 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/swagger/index.html - 200 null text/html;charset=utf-8 366.4033ms
+2025-04-07 23:16:42.084 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/swagger/swagger-ui.css - null null
+2025-04-07 23:16:42.095 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/swagger/swagger-ui-bundle.js - null null
+2025-04-07 23:16:42.168 +04:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-04-07 23:16:42.169 +04:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-04-07 23:16:42.178 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 82.0658ms
+2025-04-07 23:16:42.178 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/swagger/swagger-ui.css - 200 143943 text/css 94.2359ms
+2025-04-07 23:16:42.186 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-07 23:16:42.197 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/swagger/swagger-ui-standalone-preset.js - null null
+2025-04-07 23:16:42.207 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 20.5054ms
+2025-04-07 23:16:42.218 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/_vs/browserLink - null null
+2025-04-07 23:16:42.222 +04:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-04-07 23:16:42.229 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 32.3162ms
+2025-04-07 23:16:42.413 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/_vs/browserLink - 200 null text/javascript; charset=UTF-8 194.6619ms
+2025-04-07 23:16:43.551 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/swagger/v1/swagger.json - null null
+2025-04-07 23:16:43.613 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5069/swagger/favicon-32x32.png - null null
+2025-04-07 23:16:43.617 +04:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-04-07 23:16:43.634 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/swagger/favicon-32x32.png - 200 628 image/png 20.9879ms
+2025-04-07 23:16:43.705 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5069/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 153.9126ms
+2025-04-07 23:18:46.065 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5069/api/GispGovRu/search - application/json 162
+2025-04-07 23:18:46.129 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5069/api/GispGovRu/search - 403 null null 64.0402ms
+2025-04-07 23:19:52.254 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5069/api/GispGovRu/search - application/json 150
+2025-04-07 23:19:52.265 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5069/api/GispGovRu/search - 401 null null 12.243ms
+2025-04-07 23:20:17.200 +04:00 [INF] Now listening on: http://0.0.0.0:5069
+2025-04-07 23:20:17.247 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-07 23:20:17.250 +04:00 [INF] Hosting environment: Development
+2025-04-07 23:20:17.250 +04:00 [INF] Content root path: C:\Users\matthew\source\repos\gisp.gov.ru_parser\gisp.gov.ru_parser
+2025-04-07 23:20:58.909 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5069/api/GispGovRu/search - application/json 152
+2025-04-07 23:20:59.045 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5069/api/GispGovRu/search - 403 null null 143.6362ms
+2025-04-07 23:21:14.084 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5069/api/GispGovRu/search - application/json 152
+2025-04-07 23:21:14.116 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5069/api/GispGovRu/search - 403 null null 33.3602ms
+2025-04-07 23:21:40.366 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5069/api/GispGovRu/search - application/json 152
+2025-04-07 23:23:45.460 +04:00 [INF] Now listening on: http://0.0.0.0:5069
+2025-04-07 23:23:45.505 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-07 23:23:45.507 +04:00 [INF] Hosting environment: Development
+2025-04-07 23:23:45.507 +04:00 [INF] Content root path: C:\Users\matthew\source\repos\gisp.gov.ru_parser\gisp.gov.ru_parser
+2025-04-07 23:24:30.853 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5069/api/GispGovRu/search - application/json 152
+2025-04-07 23:24:46.803 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5069/api/GispGovRu/search - 307 0 null 15966.4371ms
+2025-04-07 23:24:59.823 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5069/api/GispGovRu/search - application/json 152
+2025-04-07 23:24:59.853 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5069/api/GispGovRu/search - 307 0 null 31.0821ms
+2025-04-07 23:25:50.827 +04:00 [INF] Now listening on: http://0.0.0.0:5069
+2025-04-07 23:25:50.906 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-07 23:25:50.908 +04:00 [INF] Hosting environment: Development
+2025-04-07 23:25:50.909 +04:00 [INF] Content root path: C:\Users\matthew\source\repos\gisp.gov.ru_parser\gisp.gov.ru_parser
+2025-04-07 23:26:03.674 +04:00 [INF] Now listening on: https://0.0.0.0:5069
+2025-04-07 23:26:03.717 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-07 23:26:03.718 +04:00 [INF] Hosting environment: Development
+2025-04-07 23:26:03.719 +04:00 [INF] Content root path: C:\Users\matthew\source\repos\gisp.gov.ru_parser\gisp.gov.ru_parser
+2025-04-07 23:26:57.639 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/swagger/index.html - null null
+2025-04-07 23:26:57.917 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/swagger/index.html - 200 null text/html;charset=utf-8 290.0298ms
+2025-04-07 23:26:58.088 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/swagger/swagger-ui.css - null null
+2025-04-07 23:26:58.100 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/swagger/swagger-ui-bundle.js - null null
+2025-04-07 23:26:58.101 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/swagger/swagger-ui-standalone-preset.js - null null
+2025-04-07 23:26:58.116 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-07 23:26:58.117 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/_vs/browserLink - null null
+2025-04-07 23:26:58.171 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 61.8363ms
+2025-04-07 23:26:58.214 +04:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-04-07 23:26:58.215 +04:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-04-07 23:26:58.219 +04:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-04-07 23:26:58.221 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/swagger/swagger-ui.css - 200 143943 text/css 133.8382ms
+2025-04-07 23:26:58.221 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 120.6457ms
+2025-04-07 23:26:58.222 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 121.7752ms
+2025-04-07 23:26:58.301 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/_vs/browserLink - 200 null text/javascript; charset=UTF-8 184.1022ms
+2025-04-07 23:26:59.057 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/swagger/v1/swagger.json - null null
+2025-04-07 23:26:59.103 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/swagger/favicon-32x32.png - null null
+2025-04-07 23:26:59.106 +04:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-04-07 23:26:59.108 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/swagger/favicon-32x32.png - 200 628 image/png 5.306ms
+2025-04-07 23:26:59.185 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 128.6035ms
+2025-04-07 23:27:14.163 +04:00 [INF] Request starting HTTP/2 POST https://localhost:5069/api/GispGovRu/search - application/json 152
+2025-04-07 23:27:14.204 +04:00 [INF] CORS policy execution successful.
+2025-04-07 23:27:14.211 +04:00 [INF] Executing endpoint 'gisp.gov.ru_parser.Controllers.GispGovRuController.SearchProducts (gisp.gov.ru_parser)'
+2025-04-07 23:27:14.262 +04:00 [INF] Route matched with {action = "SearchProducts", controller = "GispGovRu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchProducts(gisp.gov.ru_parser.Models.ApiModels.SearchRequest) on controller gisp.gov.ru_parser.Controllers.GispGovRuController (gisp.gov.ru_parser).
+2025-04-07 23:27:14.505 +04:00 [INF] Start processing HTTP request POST https://gisp.gov.ru/pp719v2/pub/prod/b/
+2025-04-07 23:27:14.509 +04:00 [INF] Sending HTTP request POST https://gisp.gov.ru/pp719v2/pub/prod/b/
+2025-04-07 23:27:15.322 +04:00 [INF] Received HTTP response headers after 806.5367ms - 200
+2025-04-07 23:27:15.329 +04:00 [INF] End processing HTTP request after 825.4666ms - 200
+2025-04-07 23:27:15.468 +04:00 [INF] Executing OkObjectResult, writing value of type 'gisp.gov.ru_parser.Models.ApiModels.SearchResponse'.
+2025-04-07 23:27:15.495 +04:00 [INF] Executed action gisp.gov.ru_parser.Controllers.GispGovRuController.SearchProducts (gisp.gov.ru_parser) in 1223.1517ms
+2025-04-07 23:27:15.498 +04:00 [INF] Executed endpoint 'gisp.gov.ru_parser.Controllers.GispGovRuController.SearchProducts (gisp.gov.ru_parser)'
+2025-04-07 23:27:15.500 +04:00 [INF] Request finished HTTP/2 POST https://localhost:5069/api/GispGovRu/search - 200 null application/json; charset=utf-8 1337.1302ms
+2025-04-07 23:27:29.338 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-07 23:27:29.344 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 5.9244ms
+2025-04-07 23:27:47.930 +04:00 [INF] Request starting HTTP/2 POST https://localhost:5069/api/GispGovRu/search - application/json 148
+2025-04-07 23:27:47.942 +04:00 [INF] CORS policy execution successful.
+2025-04-07 23:27:47.944 +04:00 [INF] Executing endpoint 'gisp.gov.ru_parser.Controllers.GispGovRuController.SearchProducts (gisp.gov.ru_parser)'
+2025-04-07 23:27:47.951 +04:00 [INF] Route matched with {action = "SearchProducts", controller = "GispGovRu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchProducts(gisp.gov.ru_parser.Models.ApiModels.SearchRequest) on controller gisp.gov.ru_parser.Controllers.GispGovRuController (gisp.gov.ru_parser).
+2025-04-07 23:27:47.961 +04:00 [INF] Start processing HTTP request POST https://gisp.gov.ru/pp719v2/pub/prod/b/
+2025-04-07 23:27:47.963 +04:00 [INF] Sending HTTP request POST https://gisp.gov.ru/pp719v2/pub/prod/b/
+2025-04-07 23:27:48.685 +04:00 [INF] Received HTTP response headers after 717.6806ms - 200
+2025-04-07 23:27:48.690 +04:00 [INF] End processing HTTP request after 729.4978ms - 200
+2025-04-07 23:27:48.716 +04:00 [INF] Executing OkObjectResult, writing value of type 'gisp.gov.ru_parser.Models.ApiModels.SearchResponse'.
+2025-04-07 23:27:48.725 +04:00 [INF] Executed action gisp.gov.ru_parser.Controllers.GispGovRuController.SearchProducts (gisp.gov.ru_parser) in 766.5602ms
+2025-04-07 23:27:48.736 +04:00 [INF] Executed endpoint 'gisp.gov.ru_parser.Controllers.GispGovRuController.SearchProducts (gisp.gov.ru_parser)'
+2025-04-07 23:27:48.749 +04:00 [INF] Request finished HTTP/2 POST https://localhost:5069/api/GispGovRu/search - 200 null application/json; charset=utf-8 819.6844ms
+2025-04-07 23:28:15.090 +04:00 [INF] Request starting HTTP/2 POST https://localhost:5069/api/GispGovRu/details - application/json 162
+2025-04-07 23:28:15.097 +04:00 [INF] CORS policy execution successful.
+2025-04-07 23:28:15.098 +04:00 [INF] Executing endpoint 'gisp.gov.ru_parser.Controllers.GispGovRuController.GetProductDetails (gisp.gov.ru_parser)'
+2025-04-07 23:28:15.108 +04:00 [INF] Route matched with {action = "GetProductDetails", controller = "GispGovRu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductDetails(gisp.gov.ru_parser.Models.ApiModels.DetailsRequest) on controller gisp.gov.ru_parser.Controllers.GispGovRuController (gisp.gov.ru_parser).
+2025-04-07 23:28:15.131 +04:00 [INF] Start processing HTTP request GET https://gisp.gov.ru/goods/#/product/1768487
+2025-04-07 23:28:15.132 +04:00 [INF] Sending HTTP request GET https://gisp.gov.ru/goods/#/product/1768487
+2025-04-07 23:28:15.291 +04:00 [INF] Received HTTP response headers after 157.1458ms - 200
+2025-04-07 23:28:15.293 +04:00 [INF] End processing HTTP request after 162.1508ms - 200
+2025-04-07 23:28:15.674 +04:00 [INF] Executing OkObjectResult, writing value of type 'gisp.gov.ru_parser.Models.ApiModels.DetailsResponse'.
+2025-04-07 23:28:15.681 +04:00 [INF] Executed action gisp.gov.ru_parser.Controllers.GispGovRuController.GetProductDetails (gisp.gov.ru_parser) in 562.8885ms
+2025-04-07 23:28:15.683 +04:00 [INF] Executed endpoint 'gisp.gov.ru_parser.Controllers.GispGovRuController.GetProductDetails (gisp.gov.ru_parser)'
+2025-04-07 23:28:15.684 +04:00 [INF] Request finished HTTP/2 POST https://localhost:5069/api/GispGovRu/details - 200 null application/json; charset=utf-8 594.5759ms
+2025-04-07 23:29:13.493 +04:00 [INF] Request starting HTTP/2 POST https://localhost:5069/api/GispGovRu/details - application/json 162
+2025-04-07 23:29:13.502 +04:00 [INF] CORS policy execution successful.
+2025-04-07 23:29:13.503 +04:00 [INF] Executing endpoint 'gisp.gov.ru_parser.Controllers.GispGovRuController.GetProductDetails (gisp.gov.ru_parser)'
+2025-04-07 23:29:13.505 +04:00 [INF] Route matched with {action = "GetProductDetails", controller = "GispGovRu"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductDetails(gisp.gov.ru_parser.Models.ApiModels.DetailsRequest) on controller gisp.gov.ru_parser.Controllers.GispGovRuController (gisp.gov.ru_parser).
+2025-04-07 23:29:25.932 +04:00 [INF] Start processing HTTP request GET https://gisp.gov.ru/goods/#/product/1768487
+2025-04-07 23:29:25.936 +04:00 [INF] Sending HTTP request GET https://gisp.gov.ru/goods/#/product/1768487
+2025-04-07 23:29:26.141 +04:00 [INF] Received HTTP response headers after 201.72ms - 200
+2025-04-07 23:29:26.145 +04:00 [INF] End processing HTTP request after 212.243ms - 200

@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43F7644F-5D36-4EED-8FC8-0B1F3E3453AF}|gisp.gov.ru_parser\\gisp.gov.ru_parser.csproj|c:\\users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\parser\\goszakupki\\goszakupkiparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43F7644F-5D36-4EED-8FC8-0B1F3E3453AF}|gisp.gov.ru_parser\\gisp.gov.ru_parser.csproj|solutionrelative:gisp.gov.ru_parser\\parser\\goszakupki\\goszakupkiparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43F7644F-5D36-4EED-8FC8-0B1F3E3453AF}|gisp.gov.ru_parser\\gisp.gov.ru_parser.csproj|c:\\users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\models\\requestmodels\\goszakupkirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43F7644F-5D36-4EED-8FC8-0B1F3E3453AF}|gisp.gov.ru_parser\\gisp.gov.ru_parser.csproj|solutionrelative:gisp.gov.ru_parser\\models\\requestmodels\\goszakupkirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43F7644F-5D36-4EED-8FC8-0B1F3E3453AF}|gisp.gov.ru_parser\\gisp.gov.ru_parser.csproj|c:\\users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\models\\requestmodels\\goszakupkiitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43F7644F-5D36-4EED-8FC8-0B1F3E3453AF}|gisp.gov.ru_parser\\gisp.gov.ru_parser.csproj|solutionrelative:gisp.gov.ru_parser\\models\\requestmodels\\goszakupkiitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43F7644F-5D36-4EED-8FC8-0B1F3E3453AF}|gisp.gov.ru_parser\\gisp.gov.ru_parser.csproj|c:\\users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{43F7644F-5D36-4EED-8FC8-0B1F3E3453AF}|gisp.gov.ru_parser\\gisp.gov.ru_parser.csproj|solutionrelative:gisp.gov.ru_parser\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43F7644F-5D36-4EED-8FC8-0B1F3E3453AF}|gisp.gov.ru_parser\\gisp.gov.ru_parser.csproj|c:\\users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\controllers\\goszakupkicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43F7644F-5D36-4EED-8FC8-0B1F3E3453AF}|gisp.gov.ru_parser\\gisp.gov.ru_parser.csproj|solutionrelative:gisp.gov.ru_parser\\controllers\\goszakupkicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43F7644F-5D36-4EED-8FC8-0B1F3E3453AF}|gisp.gov.ru_parser\\gisp.gov.ru_parser.csproj|c:\\users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\parser\\gisp.gov\\gispgovruparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43F7644F-5D36-4EED-8FC8-0B1F3E3453AF}|gisp.gov.ru_parser\\gisp.gov.ru_parser.csproj|solutionrelative:gisp.gov.ru_parser\\parser\\gisp.gov\\gispgovruparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43F7644F-5D36-4EED-8FC8-0B1F3E3453AF}|gisp.gov.ru_parser\\gisp.gov.ru_parser.csproj|c:\\users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43F7644F-5D36-4EED-8FC8-0B1F3E3453AF}|gisp.gov.ru_parser\\gisp.gov.ru_parser.csproj|solutionrelative:gisp.gov.ru_parser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 261,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GispGovRuParser.cs",
+              "DocumentMoniker": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\Parser\\Gisp.gov\\GispGovRuParser.cs",
+              "RelativeDocumentMoniker": "gisp.gov.ru_parser\\Parser\\Gisp.gov\\GispGovRuParser.cs",
+              "ToolTip": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\Parser\\Gisp.gov\\GispGovRuParser.cs",
+              "RelativeToolTip": "gisp.gov.ru_parser\\Parser\\Gisp.gov\\GispGovRuParser.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T17:59:38.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GosZakupkiItem.cs",
+              "DocumentMoniker": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\Models\\RequestModels\\GosZakupkiItem.cs",
+              "RelativeDocumentMoniker": "gisp.gov.ru_parser\\Models\\RequestModels\\GosZakupkiItem.cs",
+              "ToolTip": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\Models\\RequestModels\\GosZakupkiItem.cs",
+              "RelativeToolTip": "gisp.gov.ru_parser\\Models\\RequestModels\\GosZakupkiItem.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAA1wAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T17:40:12.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GosZakupkiController.cs",
+              "DocumentMoniker": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\Controllers\\GosZakupkiController.cs",
+              "RelativeDocumentMoniker": "gisp.gov.ru_parser\\Controllers\\GosZakupkiController.cs",
+              "ToolTip": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\Controllers\\GosZakupkiController.cs",
+              "RelativeToolTip": "gisp.gov.ru_parser\\Controllers\\GosZakupkiController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T17:14:57.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GosZakupkiParser.cs",
+              "DocumentMoniker": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\Parser\\GosZakupki\\GosZakupkiParser.cs",
+              "RelativeDocumentMoniker": "gisp.gov.ru_parser\\Parser\\GosZakupki\\GosZakupkiParser.cs",
+              "ToolTip": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\Parser\\GosZakupki\\GosZakupkiParser.cs",
+              "RelativeToolTip": "gisp.gov.ru_parser\\Parser\\GosZakupki\\GosZakupkiParser.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAswCIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T17:14:40.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GosZakupkiRequest.cs",
+              "DocumentMoniker": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\Models\\RequestModels\\GosZakupkiRequest.cs",
+              "RelativeDocumentMoniker": "gisp.gov.ru_parser\\Models\\RequestModels\\GosZakupkiRequest.cs",
+              "ToolTip": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\Models\\RequestModels\\GosZakupkiRequest.cs",
+              "RelativeToolTip": "gisp.gov.ru_parser\\Models\\RequestModels\\GosZakupkiRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T17:00:31.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\Program.cs",
+              "RelativeDocumentMoniker": "gisp.gov.ru_parser\\Program.cs",
+              "ToolTip": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\Program.cs",
+              "RelativeToolTip": "gisp.gov.ru_parser\\Program.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAawDYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T14:21:25.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\appsettings.json",
+              "RelativeDocumentMoniker": "gisp.gov.ru_parser\\appsettings.json",
+              "ToolTip": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\appsettings.json",
+              "RelativeToolTip": "gisp.gov.ru_parser\\appsettings.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-08T14:19:46.669Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 110,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
