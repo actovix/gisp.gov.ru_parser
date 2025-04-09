@@ -4,7 +4,7 @@ using gisp.gov.ru_parser.Models.ProductModels;
 
 namespace gisp.gov.ru_parser.Models.ApiModels;
 
-public class DetailsResponse : ApiKeys
+public class DetailsResponse : ApiKey
 {
     [Required]
     public List<ProductDetails> Products { get; set; } = new();

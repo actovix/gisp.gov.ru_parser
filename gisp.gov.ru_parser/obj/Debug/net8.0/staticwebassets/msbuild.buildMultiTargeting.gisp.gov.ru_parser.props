@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\gisp.gov.ru_parser.props" />
+</Project>

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace gisp.gov.ru_parser.Models.ApiModels;
 
-public class SearchRequest : ApiKeys
+public class SearchRequest : ApiKey
 {
     [Required]
     public string[] SearchPhraseList { get; set; } = [];

@@ -28,8 +28,10 @@ namespace gisp.gov.ru_parser.Parser.GosZakupki
 
             using var client = _httpClientFactory.CreateClient();
 
-            var req = new HttpRequestMessage(HttpMethod.Post, _gosZakupkiConfig.Url);
-            req.Content = new StringContent(obj);
+            var req = new HttpRequestMessage(HttpMethod.Post, _gosZakupkiConfig.Url)
+            {
+                Content = new StringContent(obj)
+            };
             req.Content.Headers.ContentType = new MediaTypeHeaderValue("text/plain");
 
             var resp = await client.SendAsync(req, cancellationToken);

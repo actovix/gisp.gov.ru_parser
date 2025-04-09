@@ -23,7 +23,7 @@ public class ApiKeyAuth
 
         if (req.Method == HttpMethods.Post)
         {
-            var keys = await req.ReadFromJsonAsync<ApiKeys>();
+            var keys = await req.ReadFromJsonAsync<ApiKey>();
 
             if (!req.HasJsonContentType() || string.IsNullOrEmpty(keys?.App.AppSecret.ToString()))
             {
@@ -32,7 +32,7 @@ public class ApiKeyAuth
             }
 
             var ctr = context.Request.RouteValues["controller"] as string ?? "";
-            if (!_keys.ContainsKey(ctr) || !_keys[ctr].IsEqual(keys))
+            if (!_keys.ContainsKey(ctr) || !_keys[ctr].app.Any(x => x.IsEqual(keys.App)))
             {
                 await GetResponse(context, 403, "Invalid api keys");
                 return;

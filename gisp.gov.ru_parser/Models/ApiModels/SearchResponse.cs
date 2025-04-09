@@ -3,7 +3,7 @@ using gisp.gov.ru_parser.Models.ProductModels;
 
 namespace gisp.gov.ru_parser.Models.ApiModels;
 
-public class SearchResponse : ApiKeys
+public class SearchResponse : ApiKey
 {   
     public List<Variant> Variants { get; set; } = new();
 }
