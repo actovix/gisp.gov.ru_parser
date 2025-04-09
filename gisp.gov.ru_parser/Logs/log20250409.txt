@@ -132,3 +132,66 @@
 2025-04-09 12:44:42.447 +04:00 [INF] Executed action gisp.gov.ru_parser.Controllers.ReestrDigitalGovRuController.GetProductDetails (gisp.gov.ru_parser) in 2014.6981ms
 2025-04-09 12:44:42.452 +04:00 [INF] Executed endpoint 'gisp.gov.ru_parser.Controllers.ReestrDigitalGovRuController.GetProductDetails (gisp.gov.ru_parser)'
 2025-04-09 12:44:42.453 +04:00 [INF] Request finished HTTP/2 POST https://localhost:5069/api/ReestrDigitalGovRu/details - 200 null application/json; charset=utf-8 2039.5861ms
+2025-04-09 13:09:24.421 +04:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address https://0.0.0.0:5069: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт).
+ ---> System.Net.Sockets.SocketException (10048): Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт).
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-04-09 13:09:48.562 +04:00 [INF] Now listening on: https://0.0.0.0:5069
+2025-04-09 13:09:48.733 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-09 13:09:48.735 +04:00 [INF] Hosting environment: Development
+2025-04-09 13:09:48.737 +04:00 [INF] Content root path: C:\Users\matthew\source\repos\gisp.gov.ru_parser\gisp.gov.ru_parser
+2025-04-09 13:10:34.171 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/swagger - null null
+2025-04-09 13:10:34.319 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/swagger - 301 0 null 159.2714ms
+2025-04-09 13:10:34.325 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/swagger/index.html - null null
+2025-04-09 13:10:34.459 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/swagger/index.html - 200 null text/html;charset=utf-8 134.4302ms
+2025-04-09 13:10:34.710 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/_vs/browserLink - null null
+2025-04-09 13:10:34.710 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-09 13:10:34.744 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 34.6889ms
+2025-04-09 13:10:34.808 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/_vs/browserLink - 200 null text/javascript; charset=UTF-8 97.7268ms
+2025-04-09 13:10:35.407 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/swagger/v1/swagger.json - null null
+2025-04-09 13:10:35.549 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 141.8773ms
+2025-04-09 13:10:49.028 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/swagger/index.html - null null
+2025-04-09 13:10:49.043 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/swagger/index.html - 200 null text/html;charset=utf-8 14.8539ms
+2025-04-09 13:10:49.063 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/_vs/browserLink - null null
+2025-04-09 13:10:49.076 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-09 13:10:49.083 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 6.4934ms
+2025-04-09 13:10:49.086 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.6371ms
+2025-04-09 13:10:49.192 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/swagger/v1/swagger.json - null null
+2025-04-09 13:10:49.210 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.0974ms
+2025-04-09 13:12:18.487 +04:00 [INF] Now listening on: https://localhost:5069
+2025-04-09 13:12:18.543 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-09 13:12:18.544 +04:00 [INF] Hosting environment: Development
+2025-04-09 13:12:18.546 +04:00 [INF] Content root path: C:\Users\matthew\source\repos\gisp.gov.ru_parser\gisp.gov.ru_parser
+2025-04-09 13:12:24.779 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/ - null null
+2025-04-09 13:12:24.913 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/ - 404 0 null 142.9604ms
+2025-04-09 13:12:24.919 +04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5069/, Response status code: 404
+2025-04-09 13:12:32.147 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/swagger/index.html - null null
+2025-04-09 13:12:32.303 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/swagger/index.html - 200 null text/html;charset=utf-8 157.6335ms
+2025-04-09 13:12:32.482 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-09 13:12:32.483 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/_vs/browserLink - null null
+2025-04-09 13:12:32.514 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 31.9223ms
+2025-04-09 13:12:32.616 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/_vs/browserLink - 200 null text/javascript; charset=UTF-8 133.7345ms
+2025-04-09 13:12:33.119 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5069/swagger/v1/swagger.json - null null
+2025-04-09 13:12:33.258 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5069/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 139.0032ms

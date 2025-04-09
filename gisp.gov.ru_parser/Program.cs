@@ -82,6 +82,6 @@ app.UseCors((x) => x
     .AllowAnyMethod()
     .AllowAnyOrigin());
 
-app.Urls.Add("https://0.0.0.0:5069");
+app.Urls.Add("https://localhost:5069");
 
 app.Run();
