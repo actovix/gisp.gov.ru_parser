@@ -107,14 +107,18 @@ namespace gisp.gov.ru_parser.Parser.Gisp.gov
         {
             var res = new List<Property>();
 
-            foreach (var item in ReflectionHelper.GetAllPropertyValues(gispGovRuDetails).Where(x => x.Value != null && x.Value.ToString() != ""))
+            try
             {
-                res.Add(new()
+                foreach (var item in ReflectionHelper.GetAllPropertyValues(gispGovRuDetails).Where(x => x.Value != null && x.Value.ToString() != ""))
                 {
-                    Name = item.Key,
-                    Value = item.Value.ToString()
-                });
+                    res.Add(new()
+                    {
+                        Name = item.Key,
+                        Value = item.Value.ToString()
+                    });
+                }
             }
+            catch (Exception ex) { }
 
             return res;
         }

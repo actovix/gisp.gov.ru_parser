@@ -122,7 +122,7 @@ namespace gisp.gov.ru_parser.Models.RequestModels
         public int ProductTypeId { get; set; }
 
         [JsonProperty("technologicalDirections")]
-        public List<string> TechnologicalDirections { get; set; }
+        public List<ProductCategory> TechnologicalDirections { get; set; }
 
         [JsonProperty("thematicCatalogId")]
         public int? ThematicCatalogId { get; set; }
@@ -147,6 +147,24 @@ namespace gisp.gov.ru_parser.Models.RequestModels
 
         [JsonProperty("characteristics")]
         public List<Characteristic> Characteristics { get; set; }
+    }
+
+    public class ProductCategory
+    {
+        [JsonProperty("id")]
+        public int Id { get; set; }
+
+        [JsonProperty("code")]
+        public string Code { get; set; }
+
+        [JsonProperty("name")]
+        public string Name { get; set; }
+
+        [JsonProperty("gisp_id")]
+        public int GispId { get; set; }
+
+        [JsonProperty("deprecated")]
+        public bool Deprecated { get; set; }
     }
 
     public class Company
@@ -338,10 +356,34 @@ namespace gisp.gov.ru_parser.Models.RequestModels
         public List<ExactNumericValue> ExactNumericValues { get; set; }
 
         [JsonProperty("intervalNumericValues")]
-        public List<object> IntervalNumericValues { get; set; }
+        public List<ProductCharacteristicValue> IntervalNumericValues { get; set; }
 
         [JsonProperty("textValues")]
         public List<TextValue> TextValues { get; set; }
+    }
+
+    public class ProductCharacteristicValue
+    {
+        [JsonProperty("id")]
+        public int Id { get; set; }
+
+        [JsonProperty("productCharacteristicId")]
+        public int ProductCharacteristicId { get; set; }
+
+        [JsonProperty("lowerTolerance")]
+        public double? LowerTolerance { get; set; }
+
+        [JsonProperty("relativeTolerance")]
+        public bool RelativeTolerance { get; set; }
+
+        [JsonProperty("upperTolerance")]
+        public double? UpperTolerance { get; set; }
+
+        [JsonProperty("lowerValue")]
+        public double LowerValue { get; set; }
+
+        [JsonProperty("upperValue")]
+        public double UpperValue { get; set; }
     }
 
     public class Significance

@@ -33,13 +33,22 @@ namespace gisp.gov.ru_parser.Helpers
                     continue;
                 }
 
+
                 if (value == null)
                 {
                     result[fullPath] = null;
+                    continue;
                 }
-                else if (IsSimple(value.GetType()))
+
+                var t = Nullable.GetUnderlyingType(value.GetType());
+                
+                if (IsSimple(value.GetType()))
                 {
                     result[fullPath] = value;
+                }
+                else if (t != null)
+                {
+                    result[fullPath] = Convert.ChangeType(value, t);
                 }
                 else if (value is IEnumerable enumerable && value is not string)
                 {
