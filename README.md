@@ -31,7 +31,7 @@ curl -X 'POST' \
     "appSecret": "28b8ee9e-a42b-4842-9b92-bc3bb19f8db6"
   },
   "searchPhraseList": [
-    "бумага"
+    "ru"
   ],
   "waitTimeout": 0,
   "maxProductsCount": 0
@@ -65,7 +65,7 @@ curl -X 'POST' \
     "appSecret": "94fa1ec9-fd67-4d90-89d4-a84493631149"
   },
   "searchPhraseList": [
-    "парсер"
+    "js"
   ],
   "waitTimeout": 0,
   "maxProductsCount": 0
