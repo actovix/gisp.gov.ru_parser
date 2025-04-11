@@ -5,24 +5,6 @@ Target framework: .NET8.0
 Test data:
 ```bash
 curl -X 'POST' \
-  'https://localhost:5069/api/GispGovRu/search' \
-  -H 'accept: */*' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "app": {
-    "appId": "75de29d1-09f1-419e-aa17-e479c9f0f1c8",
-    "appSecret": "dde5372b-5a1c-45ab-bf3e-f4b3a927a061"
-  },
-  "searchPhraseList": [
-    "Отвертка"
-  ],
-  "waitTimeout": 0,
-  "maxProductsCount": 0
-}'
-```
-
-```bash
-curl -X 'POST' \
   'https://localhost:5069/api/GispGovRu/details' \
   -H 'accept: */*' \
   -H 'Content-Type: application/json' \
@@ -49,7 +31,7 @@ curl -X 'POST' \
     "appSecret": "28b8ee9e-a42b-4842-9b92-bc3bb19f8db6"
   },
   "searchPhraseList": [
-    "бумага"
+    "ru"
   ],
   "waitTimeout": 0,
   "maxProductsCount": 0
@@ -83,7 +65,7 @@ curl -X 'POST' \
     "appSecret": "94fa1ec9-fd67-4d90-89d4-a84493631149"
   },
   "searchPhraseList": [
-    "парсер"
+    "js"
   ],
   "waitTimeout": 0,
   "maxProductsCount": 0
