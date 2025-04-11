@@ -134,7 +134,7 @@ namespace gisp.gov.ru_parser.Models.RequestModels
         public DateTime UpdatedAt { get; set; }
 
         [JsonProperty("keywords")]
-        public List<string> Keywords { get; set; }
+        public List<Keyword> Keywords { get; set; }
 
         [JsonProperty("yearFrom")]
         public int? YearFrom { get; set; }
@@ -149,6 +149,20 @@ namespace gisp.gov.ru_parser.Models.RequestModels
         public List<Characteristic> Characteristics { get; set; }
     }
 
+    public class Keyword
+    {
+        [JsonProperty("id")]
+        public int Id { get; set; }
+
+        [JsonProperty("code")]
+        public int Code { get; set; }
+
+        [JsonProperty("name")]
+        public string Name { get; set; }
+
+        [JsonProperty("parent_id")]
+        public int? ParentId { get; set; }
+    }
     public class ProductCategory
     {
         [JsonProperty("id")]
