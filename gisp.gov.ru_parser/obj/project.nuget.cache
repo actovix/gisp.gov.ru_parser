@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PK3ZFTWXwoY=",
+  "dgSpecHash": "K/YCM5fVUFM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\gisp.gov.ru_parser.csproj",
+  "projectFilePath": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\testgisp\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\gisp.gov.ru_parser.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matthew\\.nuget\\packages\\anglesharp\\1.2.0\\anglesharp.1.2.0.nupkg.sha512",
     "C:\\Users\\matthew\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

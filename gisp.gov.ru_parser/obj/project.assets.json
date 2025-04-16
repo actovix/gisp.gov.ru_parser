@@ -1774,11 +1774,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\gisp.gov.ru_parser.csproj",
+      "projectUniqueName": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\testgisp\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\gisp.gov.ru_parser.csproj",
       "projectName": "gisp.gov.ru_parser",
-      "projectPath": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\gisp.gov.ru_parser.csproj",
+      "projectPath": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\testgisp\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\gisp.gov.ru_parser.csproj",
       "packagesPath": "C:\\Users\\matthew\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\obj\\",
+      "outputPath": "C:\\Users\\matthew\\source\\repos\\gisp.gov.ru_parser\\testgisp\\gisp.gov.ru_parser\\gisp.gov.ru_parser\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\matthew\\AppData\\Roaming\\NuGet\\NuGet.Config",

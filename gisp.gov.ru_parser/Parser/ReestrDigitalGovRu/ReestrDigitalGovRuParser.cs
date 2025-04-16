@@ -3,8 +3,7 @@ using Microsoft.Extensions.Options;
 
 namespace gisp.gov.ru_parser.Parser.ReestrDigitalGovRu
 {
-    public class ReestrDigitalGovRuParser : ParserLinker<ReestrDigitalGovRuConfig, ReestrDigitalGovRuPage>
+    public class ReestrDigitalGovRuParser(ParserBase parser, IOptions<ReestrDigitalGovRuConfig> options) : ParserLinker<ReestrDigitalGovRuConfig, ReestrDigitalGovRuPage>(parser, options)
     {
-        public ReestrDigitalGovRuParser(ParserBase parser, IOptions<ReestrDigitalGovRuConfig> options) : base(parser, options) { }
     }
 }

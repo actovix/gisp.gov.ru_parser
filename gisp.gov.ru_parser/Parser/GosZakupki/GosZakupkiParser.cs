@@ -52,7 +52,7 @@ namespace gisp.gov.ru_parser.Parser.GosZakupki
                 res.Variants.First().Products.Add(new()
                 {
                     Name = item.GoodsName,
-                    Code = item.Id.Oid,
+                    Code = new(item.Id.Oid.Take(20).ToArray()),
                     Link = "https://goszakupki.eaeunion.org/erpt/registers/vipiska/" + item.Id.Oid,
                     Price = 0,
                     PriceCurrency = "RUB"
@@ -92,7 +92,7 @@ namespace gisp.gov.ru_parser.Parser.GosZakupki
             {
                 Link = detailsRequest.ProductLinks.First(),
                 Name = model.GoodsName,
-                Code = model.Id.Oid,
+                Code = new(model.Id.Oid.Take(20).ToArray()),
                 Price = 0,
                 PriceCurrency = "RUB",
                 Properties = GetProps(model),
@@ -105,7 +105,15 @@ namespace gisp.gov.ru_parser.Parser.GosZakupki
         {
             var res = new List<Property>();
 
-            foreach (var item in ReflectionHelper.GetAllPropertyValues(model).Where(x => x.Value != null && x.Value.ToString() != ""))
+            var coll = ReflectionHelper.GetAllPropertyValues(model).Where(x => x.Value != null && x.Value.ToString() != "");
+
+            res.Add(new()
+            {
+                Name = "Company.Name",
+                Value = model.Name
+            });
+
+            foreach (var item in coll)
             {
                 res.Add(new()
                 {

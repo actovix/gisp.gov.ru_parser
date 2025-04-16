@@ -57,7 +57,7 @@ namespace gisp.gov.ru_parser.Parser.Gisp.gov
                 res.Variants.First().Products.Add(new()
                 {
                     Link = item.ProductGispUrl,
-                    Code = item.BasedondocNum,
+                    Code = new(item.BasedondocNum.Take(20).ToArray()),
                     Name = item.ProductName,
                     Price = 0,
                     PriceCurrency = "RUB"
@@ -92,7 +92,7 @@ namespace gisp.gov.ru_parser.Parser.Gisp.gov
 
             res.Products.Add(new()
             {
-                Code = model.Id.ToString(),
+                Code = new(model.Id.ToString().Take(20).ToArray()),
                 Link = detailsRequest.ProductLinks.First(),
                 Name = model.Name,
                 Price = 0,

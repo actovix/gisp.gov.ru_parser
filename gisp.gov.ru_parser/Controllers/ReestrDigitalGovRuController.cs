@@ -11,11 +11,11 @@ namespace gisp.gov.ru_parser.Controllers
     public class ReestrDigitalGovRuController : ControllerBase
     {
         private readonly Serilog.ILogger _logger;
-        private readonly ParserLinker<ReestrDigitalGovRuConfig, ReestrDigitalGovRuPage> _parser;
+        private readonly ReestrDigGovRuParser _parser;
 
         public ReestrDigitalGovRuController(
-            Serilog.ILogger logger, 
-            ParserLinker<ReestrDigitalGovRuConfig, ReestrDigitalGovRuPage> parser)
+            Serilog.ILogger logger,
+            ReestrDigGovRuParser parser)
         {
             _logger = logger;
             _parser = parser;

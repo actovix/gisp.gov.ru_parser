@@ -49,19 +49,21 @@ builder.Services.AddScoped<GispGovRuParser>();
 builder.Services.Configure<GispGovRuConfig>(conf.GetSection(nameof(GispGovRuConfig)));
 
 builder.Services.Configure<ReestrDigitalGovRuConfig>(conf.GetSection(nameof(ReestrDigitalGovRuConfig)));
-builder.Services.AddScoped<ParserLinker<ReestrDigitalGovRuConfig, ReestrDigitalGovRuPage>, ReestrDigitalGovRuParser>();
+builder.Services.AddScoped<ReestrDigGovRuParser>();
 
 builder.Services.Configure<GosZakupkiConfig>(conf.GetSection(nameof(GosZakupkiConfig)));
 builder.Services.AddScoped<GosZakupkiParser>();
 
 if (builder.Environment.IsDevelopment())
 {
-    builder.Services.AddSwaggerGen();
+    builder.Services.AddSwaggerGen((opt) =>
+    {
+
+    });
 }
 
 var app = builder.Build();
 
-app.UseMiddleware<ApiKeyAuth>();
 
 if (app.Environment.IsDevelopment())
 {
@@ -70,18 +72,18 @@ if (app.Environment.IsDevelopment())
 }
 else
 {
+    app.UseMiddleware<ApiKeyAuth>();
     app.UseMiddleware<TimeoutMiddleware>();
 }
 
-app.UseHttpsRedirection();
-app.UseAuthorization();
 app.MapControllers();
+app.UseAuthorization();
 
 app.UseCors((x) => x
     .AllowAnyHeader()
     .AllowAnyMethod()
     .AllowAnyOrigin());
 
-app.Urls.Add("https://localhost:5069");
+app.Urls.Add("http://0.0.0.0:5069");
 
 app.Run();
