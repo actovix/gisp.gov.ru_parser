@@ -57,7 +57,7 @@ namespace gisp.gov.ru_parser.Parser.Gisp.gov
                 res.Variants.First().Products.Add(new()
                 {
                     Link = item.ProductGispUrl,
-                    Code = new(item.BasedondocNum.Take(20).ToArray()),
+                    Code = item.ProductOkpd2,
                     Name = item.ProductName,
                     Price = 0,
                     PriceCurrency = "RUB"
