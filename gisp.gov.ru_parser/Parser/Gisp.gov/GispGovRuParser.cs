@@ -92,7 +92,7 @@ namespace gisp.gov.ru_parser.Parser.Gisp.gov
 
             res.Products.Add(new()
             {
-                Code = new(model.Id.ToString().Take(20).ToArray()),
+                Code = model.Okpd2.Code,
                 Link = detailsRequest.ProductLinks.First(),
                 Name = model.Name,
                 Price = 0,
